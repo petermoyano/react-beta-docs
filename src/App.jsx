@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <Form />
-      <h1>This is from App.jsx</h1>
     </div>
   );
 }

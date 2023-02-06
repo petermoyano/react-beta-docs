@@ -4,6 +4,8 @@ import CatFriends from "./reference/useRef/CatFriends";
 import VideoPlayer from "./reference/useRef/VideoPlayer";
 import AgeForm from "./reference/useState/AgeForm";
 import { CounterBad, CounterGood } from "./reference/useState/Counter";
+import PreservingState from "./Learn/PreservingState";
+import ResettingStateSamePosition from "./reference/useState/ResettingStateSamePosition";
 function App() {
   return (
     <div className="App">
@@ -11,8 +13,10 @@ function App() {
       {/* <CatFriends /> */}
       {/* <VideoPlayer /> */}
       {/* <AgeForm /> */}
-      <CounterBad />
-      <CounterGood />
+      {/* <CounterBad />
+      <CounterGood /> */}
+      {/* <PreservingState /> */}
+      <ResettingStateSamePosition />
     </div>
   );
 }

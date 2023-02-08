@@ -8,9 +8,7 @@ export default function UpdatingObjectsInState() {
   });
 
   function handlePlusClick() {
-    setPlayer((prevPlayer) => {
-      return { ...prevPlayer, score: prevPlayer.score + 1 };
-    });
+    setPlayer({ ...player, score: player.score + 1 });
   }
 
   function handleFirstNameChange(e) {

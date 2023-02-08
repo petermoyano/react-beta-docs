@@ -6,6 +6,7 @@ import AgeForm from "./reference/useState/AgeForm";
 import { CounterBad, CounterGood } from "./reference/useState/Counter";
 import PreservingState from "./Learn/PreservingState";
 import ResettingStateSamePosition from "./reference/useState/ResettingStateSamePosition";
+import UpdatingObjectsInState from "./Learn/UpdatingObjectsInState";
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
       {/* <CounterBad />
       <CounterGood /> */}
       {/* <PreservingState /> */}
-      <ResettingStateSamePosition />
+      {/* <ResettingStateSamePosition /> */}
+      <UpdatingObjectsInState />
     </div>
   );
 }

@@ -7,6 +7,8 @@ import { CounterBad, CounterGood } from "./reference/useState/Counter";
 import PreservingState from "./Learn/PreservingState";
 import ResettingStateSamePosition from "./reference/useState/ResettingStateSamePosition";
 import UpdatingObjectsInState from "./Learn/UpdatingObjectsInState";
+import UpdatingObjsInsideArrays from "./Learn/UpdatingObjsInsideArrays";
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +20,8 @@ function App() {
       <CounterGood /> */}
       {/* <PreservingState /> */}
       {/* <ResettingStateSamePosition /> */}
-      <UpdatingObjectsInState />
+      {/* <UpdatingObjectsInState /> */}
+      <UpdatingObjsInsideArrays />
     </div>
   );
 }

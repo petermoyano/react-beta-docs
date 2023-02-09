@@ -8,6 +8,7 @@ import PreservingState from "./Learn/PreservingState";
 import ResettingStateSamePosition from "./reference/useState/ResettingStateSamePosition";
 import UpdatingObjectsInState from "./Learn/UpdatingObjectsInState";
 import UpdatingObjsInsideArrays from "./Learn/UpdatingObjsInsideArrays";
+import ShoppingCart from "./Learn/Updating Arrays in state/ShoppingCart";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <PreservingState /> */}
       {/* <ResettingStateSamePosition /> */}
       {/* <UpdatingObjectsInState /> */}
-      <UpdatingObjsInsideArrays />
+      {/* <UpdatingObjsInsideArrays /> */}
+      <ShoppingCart />
     </div>
   );
 }

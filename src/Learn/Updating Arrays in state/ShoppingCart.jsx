@@ -32,6 +32,32 @@ export default function ShoppingCart() {
       })
     );
   }
+  function handleDecreaseClick(productId) {
+    /* const p = products.filter((e) => e.id === productId)[0];
+    if (p.count === 1) {
+      console.log("Im HERE!!!!");
+      setProducts(products.filter((prod) => prod.id !== productId));
+    } else {
+      setProducts(
+        products.map((p) => {
+          if (p.id === productId) {
+            return { ...p, count: p.count - 1 };
+          } else {
+            return p;
+          }
+        })
+      );
+    } */
+    let nextProducts = products.map((p) => {
+      if (p.id === productId) {
+        return { ...p, count: p.count - 1 };
+      } else {
+        return p;
+      }
+    });
+    nextProducts = nextProducts.filter((p) => p.count > 0);
+    setProducts(nextProducts);
+  }
 
   return (
     <ul>
@@ -44,6 +70,13 @@ export default function ShoppingCart() {
             }}
           >
             +
+          </button>
+          <button
+            onClick={() => {
+              handleDecreaseClick(product.id);
+            }}
+          >
+            –
           </button>
         </li>
       ))}

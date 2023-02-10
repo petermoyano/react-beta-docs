@@ -11,6 +11,7 @@ import UpdatingObjsInsideArrays from "./Learn/UpdatingObjsInsideArrays";
 import ShoppingCart from "./Learn/Updating Arrays in state/ShoppingCart";
 import TaskApp from "./Learn/Updating Arrays in state/FixMutations/TaskApp";
 import EditProfile from "./Learn/Reacting to input with state/Profile Editor/EditProfile";
+import FixABrokenPackList from "./Learn/Choosing the state structure/FixABrokenPackList";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <UpdatingObjsInsideArrays /> */}
       {/* <ShoppingCart /> */}
       {/* <TaskApp /> */}
-      <EditProfile />
+      {/* <EditProfile /> */}
+      <FixABrokenPackList />
     </div>
   );
 }

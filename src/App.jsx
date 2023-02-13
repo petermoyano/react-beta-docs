@@ -12,6 +12,7 @@ import ShoppingCart from "./Learn/Updating Arrays in state/ShoppingCart";
 import TaskApp from "./Learn/Updating Arrays in state/FixMutations/TaskApp";
 import EditProfile from "./Learn/Reacting to input with state/Profile Editor/EditProfile";
 import FixABrokenPackList from "./Learn/Choosing the state structure/FixABrokenPackList";
+import SkippingRecalculationWithUseMemo from "./reference/useMemo/SkipRecalcWuseMemo/SkippingRecalculationWithUseMemo";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <ShoppingCart /> */}
       {/* <TaskApp /> */}
       {/* <EditProfile /> */}
-      <FixABrokenPackList />
+      {/* <FixABrokenPackList /> */}
+      <SkippingRecalculationWithUseMemo />
     </div>
   );
 }

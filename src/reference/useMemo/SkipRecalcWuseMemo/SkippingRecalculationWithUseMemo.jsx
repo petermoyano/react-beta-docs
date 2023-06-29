@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createTodos } from "./utils.js";
 import TodoList from "./TodoList";
+import "./styles.css";
 
 const todos = createTodos(); // [{id, task, completeted},{}...]
 
